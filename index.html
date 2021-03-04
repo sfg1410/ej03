@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+ 
+</head>
+
+
+
+<style>
+ 
+ 
+    span.efecto {
+        color:red;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        
+            }
+       
+
+
+
+a.botoncito{     
+text-decoration: none;
+background-color: aqua;
+color:darkslategrey;
+padding: 10px 20px;
+border-radius: 50px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+a.botoncito:hover{
+background-color: firebrick;
+color: gold;
+}
+
+
+
+
+
+
+#capa{
+position: absolute;
+top: 100px;
+left: 200px;
+width: 300px;
+background-color:lightblue;
+z-index: 21;
+}
+#capa1{
+    
+position: absolute;
+top: 150px;
+left: 250px;
+width: 350px;
+background-color:lightcoral;
+z-index: 20;
+
+}
+
+#yorelativo{
+    
+position: absolute;
+top: 10px;
+right: 10px;
+
+}
+#capa1:hover{
+z-index: 25;
+
+}
+
+
+
+#tablita{
+margin-top: 300px;
+
+}
+
+
+#once:hover{
+background-color: lime;
+    color: lightpink;
+}
+
+#cero:hover{
+
+
+    background-color: magenta;
+}
+#uno:hover{
+    background-color: maroon;
+}
+#dos:hover{
+    background-color: mediumvioletred;
+}
+#tres:hover{
+    background-color: orange;
+}
+#cuatro:hover{
+    background-color: plum;
+}
+#cinco:hover{
+    background-color: royalblue;
+}
+#seis:hover{
+
+    background-color: slateblue;
+}
+
+
+.fotos{
+width: 150px; height: 150px;
+border-radius: 80px;
+border: 4px solid white;
+margin: 25px;
+padding: 4px;
+
+
+}
+.fotos:hover{
+border: 4px solid black;
+padding: 4px;
+
+
+}
+
+.foto{
+
+    border-radius: 80px;
+}
+
+
+
+</style>
+
+
+
+
+<body>
+
+
+
+
+
+
+
+
+
+    <br>
+    <a class="botoncito"  href="http://www.youtube.com" >Goutu yutuf</a>
+    <a  href="http://www.finofilipino.org" >Goutu fino</a>
+    <a   class="botoncito"href="http://www.youtube.com" >Goutu yutuf</a>
+
+<div id="capa">
+
+<h1>estoy dentro</h1>
+<p>sigo dentro de ella</p>
+</div>
+<div id="capa1">
+
+    <h1>estoy dentro</h1>
+    <p>sigo dentro de ella</p>
+    <h3 id="yorelativo">soy relativo</h3>
+    </div>
+
+    <p> El verdadero <span class="efecto"> mal de la vejez</span> es la falta de <span class="efecto">cuartos</span></p>
+
+
+
+
+
+
+    <table border="1" id="tablita">
+
+<th colspan="6">
+primera
+
+</th>
+
+
+
+</th>
+<tr >
+<td> FOTO</td>
+<td>Nombre</td>
+<td>Posicion</td>
+
+<tr id="cero">
+    <td  ><img  src="0.jpg"  width="100px"height="100px"  class="foto"  ></td>
+    <td>pepito</td>
+    <td>de lao</td>
+    
+
+</tr>
+<tr id="uno">
+<td><img src="2.jpg" width="100px" height="100px"  class="foto"></td>
+<td>juanito</td>
+<td>enfrente</td>
+
+</tr>
+<tr id="dos" >
+    <td id="once"><img src="3.jpg"width="100px"height="100px" alt="" class="foto"></td>
+    <td>tito</td>
+    <td>tumbado</td>
+  
+</tr>
+
+<tr id="tres" >
+    <td ><img src="4.jpg" width="100px" height="100px" alt="" class="foto"></td>
+    <td>manolo</td>
+    <td>cuclillas</td>
+    
+
+</tr>
+
+<tr  id="cuatro">
+    <td ><img src="5.jpg" width="100px" height="100px" alt=""class="foto"></td>
+    <td>timoti</td>
+    <td>relajado</td>
+    
+
+</tr>
+<tr id="cinco" >
+    <td ><img src="6.jpg" width="100px" height="100px" alt=""class="foto"></td>
+    <td>pepe</td>
+    <td>firme</td>
+    
+
+</tr>
+<tr id="seis" >
+    <td ><img src="8.jpg" width="100px" height="100px" alt="" class="foto" ></td>
+    <td>florian</td>
+    <td>sentado</td>
+    
+
+</tr>
+
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+    
+
+    <img src="0.jpg" alt="" class="fotos">
+    <img src="2.jpg" alt="" class="fotos">
+    <img src="3.jpg" alt="" class="fotos">
+    <img src="4.jpg" alt="" class="fotos">
+    <img src="5.jpg" alt="" class="fotos">
+    <img src="6.jpg" alt="" class="fotos">
+    <img src="8.jpg" alt="" class="fotos">
+
+    
+
+</body>
+</html>
